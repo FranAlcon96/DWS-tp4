@@ -68,6 +68,9 @@ public ViewManager() {
 	}else {
 		JOptionPane p = new JOptionPane("Ya ha introducido esa key, por favor introduzca otra.");
 	}
+    this.setKey("");
+    this.setValue("");
+
   }
   
   public void mostrar() {
